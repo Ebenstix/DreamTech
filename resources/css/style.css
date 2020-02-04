@@ -65,11 +65,12 @@ h2{
    font-size: 180%;
    word-spacing: 2px;
    text-align: center;
-   margin-bottom: 30px; 
+   margin-bottom: 10px; 
+   margin-top:     
    letter-spacing: 1px;    
 }
 h3{
-   font-size: 110%;
+   font-size: 120%;
    margin-bottom: 15px;
 }
 h2:after{
@@ -80,6 +81,14 @@ h2:after{
     width: 200px;
     margin: 0 auto;
     margin-top: 15px;
+    
+}
+.box{
+    padding: 1%
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
 }
 .cool-background{
     position: absolute;
@@ -96,6 +105,12 @@ h2:after{
     float: left;
     margin-top: 20px;
 }
+.icon-big{
+    font-size: 300%;
+    display: block;
+    color: rgba(227, 91, 19, 0.8);
+    margin-bottom: 10px;
+}
 .buyer{
     width: 90%;
 }
@@ -109,6 +124,9 @@ h2:after{
 .section-page1{
     background-color: rgba(33, 31, 31, 0.06);
     padding: 10px;
+}
+.section-benefits{
+    background-color: rgba(248, 248, 248, 0.97);
 }
 
 .steps-box:first-child{
