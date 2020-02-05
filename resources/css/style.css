@@ -66,7 +66,7 @@ h2{
    word-spacing: 2px;
    text-align: center;
    margin-bottom: 10px; 
-   margin-top: 10px;     
+   margin-top: 30px;    
    letter-spacing: 1px;    
 }
 h3{
@@ -128,7 +128,36 @@ h2:after{
 .section-benefits{
     background-color: rgba(248, 248, 248, 0.97);
 }
-
+.section-store{
+    padding: 0;
+    margin-top: 20px;
+}
+.store-showcase{
+    list-style: none;
+    width: 100%;
+}
+.store-showcase li{
+    display: block;
+    float: right;
+    width: 25%;
+}
+.store-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000; 
+}
+.store-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: opacity 0.2s, transform 0.2s;
+}
+.store-photo img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
 .steps-box:first-child{
     text-align: right;
     padding-right: 3%;
